@@ -20,8 +20,7 @@ A simple C program that encrypts and decrypts files using a combination of Caesa
 - C compiler such as GCC
 - Terminal or command prompt
 - Basic knowledge of using command line
-- 
- Compilation Instructions
+- Compilation Instructions
 
 To compile the program, run the following command in your terminal:
 gcc secure_file.c -o secure_file.exe
