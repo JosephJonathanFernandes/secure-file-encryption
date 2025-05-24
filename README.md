@@ -1,4 +1,5 @@
 Secure File Encryption
+
 A simple C program that encrypts and decrypts files using a combination of Caesar Cipher and XOR Cipher for enhanced security.
 
  Features
@@ -23,28 +24,40 @@ A simple C program that encrypts and decrypts files using a combination of Caesa
 - Compilation Instructions
 
 To compile the program, run the following command in your terminal:
+
 gcc secure_file.c -o secure_file.exe
 
 Usage Instructions
+
 Run the compiled program:
+
 ./secure_file.exe
 
 Example usage:
+
 Secure File System using Caesar + XOR Encryption
 
 1. Encrypt a File
 2. Decrypt a File
+
 Enter your choice: 1
+
 Enter input filename: sample.txt
+
 Enter output filename: encrypted.txt
+
 Enter Caesar Cipher key (1-25): 4
+
 Enter XOR key (single character): k
+
 File processed successfully! Output: encrypted.txt
 
 Do you want to continue (y/n)? n
+
 Thank you for using the Secure File System.
 
 Notes
+
 Make sure the input file exists in the working directory or provide the full path.
 
 The program only shifts alphabetical characters during Caesar encryption; other characters remain unchanged.
@@ -56,6 +69,7 @@ The maximum line size is 1024 characters due to buffer size.
 Handles errors like file not found gracefully.
 
 How to Contribute
+
 Contributions are welcome! Feel free to:
 
 Report bugs
@@ -75,7 +89,10 @@ Email: josephfernandes273@gmail.com
 GitHub: JosephJonathanFernandes
 
 Acknowledgments
+
 Inspired by classic cryptographic techniques.
+
 Thanks to all open source contributors who help beginners learn encryption and C programming.
+
 Generative AI for helping with settling issues with errors in code
 
